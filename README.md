@@ -15,7 +15,7 @@ $ret =  $dns->DnsRequest("gogle.com");
 You can install the package via composer:
 
 ```bash
-composer require ipok\dns
+composer require ipokbr\dns
 ```
 
 ## Usage
@@ -35,9 +35,8 @@ $dns->unsetRecursive(); //Unset the recursive feature - Default: enable
 
 $dns->setTcp(); //Use tcp protocol (instead of udp) - Default: disable
 
-$dns->unsetTrace(); //Unset Trace feature - Default: enable
+$dns->setTrace(); //Set Trace feature - Default: disable
 
-Trace starts the search directly from Root Servers and follow the resolution path to the authoritative servers. This is useful when you want to avoid cached data in some server. You may need to disable it when you query a server directly.
  
 ```
 
@@ -48,7 +47,7 @@ Contributions to this project are welcome and will be credited.
 
 ## Credits
 
-- [Fernando Bertasso Figaro](https://github.com/xxxx)
+- [Fernando Bertasso Figaro](https://github.com/ipokbr)
 
 
 ## License
