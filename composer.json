@@ -1,0 +1,25 @@
+{
+    "name": "ipokbr/dns",
+    "description": "DNS Request and Parser",
+    "keywords": [
+	"ipok",
+        "dns"
+    ],
+    "homepage": "https://github.com/ipokbr/dns",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fernando Bertasso Figaro",
+            "email": "ipok@ipok.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "IPOKBR\\Dns\\": "src"
+        }
+    }
+}
