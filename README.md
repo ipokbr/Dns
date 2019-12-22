@@ -1,5 +1,4 @@
-
-#DNS Request and Parser Class
+##Introduction
 
 This package contains a class that can perform dns requests, parse answer and return a json document. It can request data directly from Root Servers, and even from authoritative or recursive servers.
 
